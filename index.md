@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## 论文阅读笔记汇总
 
-You can use the [editor on GitHub](https://github.com/xwx-helloworld/xwx-helloworld.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+现阶段聚焦于图像算法，后续会研究其他领域。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 一般论文改进点
 
-### Markdown
+基于深度学习的图像算法一般包括：数据、模型、计算loss（反向）。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* 数据：部分论文会对图像常见问题进行重新建模，导致数据这块需要新的处理方式，比如xyxy, xywh，center point + wh等，常伴随着模型的改进；
+* 模型：此处改进最多，新的网络、新的分支、新的连接，都有可能会产生新的论文；
+* loss：一般伴随着新的建模方式，或者处理一些特定问题（样本不均衡、某个指标有误差等）。
 
-```markdown
-Syntax highlighted code block
+### 论文汇总
 
-# Header 1
-## Header 2
-### Header 3
+* []{}
 
-- Bulleted
-- List
+### 联系方式
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xwx-helloworld/xwx-helloworld.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+如果有问题或者需要讨论的话，欢迎联系我。e-mail: xwx.helloworld@outlook.com
