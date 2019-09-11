@@ -1,6 +1,8 @@
 ## 论文信息
 * 论文名：Path Aggregation Network for Instance Segmentation
 * 作者：Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, Jiaya Jia（港中大、北大、商汤、优图）
+* [github link](https://github.com/ShuLiu1993/PANet)
+* [arvix link](https://arxiv.org/pdf/1803.01534.pdf)
 
 ## 主要贡献
 
