@@ -12,17 +12,20 @@
 
 ## 文章细节(他山之石)
 
+- 下图是论文整体结构，分别是：FPN主干网络、自下而上的信息增强、自适应特征pooling、分类回归分支、mask回归分支（FC fusion）
+
 ![](framework.png)
 
-上图是论文整体结构，分别是：FPN主干网络、自下而上的信息增强、自适应特征pooling、分类回归分支、mask回归分支（FC fusion）
+- P层-->N层：
 
-P层-->N层：
 ![](P-layer-N-layer.png)
 
-多层特征pooling（ROI Pooling/Align）
+- 多层特征pooling（ROI Pooling/Align）
+
 ![](adaptive.png)
 
-FC fusion
+- FC fusion（仅针对mask分支）
+
 ![](fc-fusion.png)
 
 ## 借鉴点(可以攻玉)
@@ -30,3 +33,5 @@ FC fusion
 - 路径聚合
 
 - 多层特征pooling
+
+- fusion
