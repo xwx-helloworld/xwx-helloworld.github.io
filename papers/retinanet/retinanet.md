@@ -43,7 +43,7 @@ $$ FL(p_t) = (1-p_t)^\gamma CE(p_t)$$
 
 - 分类是Focal Loss去计算（与是否是这一类计算）；
 
-- 回归是smooth L1计算（此处回归量是delta，GT是通过W*H*K个anchor boxes与GT计算得到
+- 回归是smooth L1计算（此处回归量是delta，GT是通过WxHxK个anchor boxes与GT计算得到
 ）
 ![](retinanet.png)
 
