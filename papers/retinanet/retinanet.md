@@ -4,11 +4,12 @@
         MathJax.Hub.Config({
             tex2jax: {
             skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
+            inlineMath: [['$','$$']]
             }
         });
     </script>
 </head>
+
 
 ## 论文信息
 * 论文名：paper name
