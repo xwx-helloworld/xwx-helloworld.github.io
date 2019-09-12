@@ -27,10 +27,14 @@
 
 ## 文章细节(他山之石)
 
-- Focal Loss定义如下，CE是交叉熵（用于分类），p是为某一类的概率，可以看出，Focal Loss是在CE的基础上乘以了$ (1-p_t)^\gamma $的系数，对于$p_t$较大的，FL较小，对于$p_t$较小的，FL较大，可以看出，FL对于得分较低的样本有更大的系数，可以更好地参与反向（默认$ \gamma=2$）。
+- Focal Loss定义如下，CE是交叉熵（用于分类），p是为某一类的概率，可以看出，Focal Loss是在CE的基础上乘以了$$ (1-p_t)^\gamma $$的系数，对于$$p_t$$较大的，FL较小，对于$$p_t$$较小的，FL较大，可以看出，FL对于得分较低的样本有更大的系数，可以更好地参与反向（默认$$ \gamma=2$$）。
+
 $$ CE(p, y) =  \begin{cases} -log(p) & \text {if $y$ = 1} \\ -log(1-p) & \text {otherwise} \end{cases} $$
+
 $$ p_t =  \begin{cases} p & \text {if $y$ = 1} \\ 1-p & \text {otherwise} \end{cases} $$
+
 $$ CE(p_t) = CE(p, y) = -log(p_t) $$
+
 $$ FL(p_t) = (1-p_t)^\gamma CE(p_t)$$
 
 - RetinaNet：如下图所示。
