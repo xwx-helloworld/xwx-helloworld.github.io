@@ -12,8 +12,10 @@
 
 ### 论文汇总
 
-* [RetinaNet](papers/retinanet/retinanet.md)
-* [PANet](papers/PANet/PANet.md)
+- [RetinaNet](papers/retinanet/retinanet.md)
+- FreeAnchor
+- FSAF
+- [PANet](papers/PANet/PANet.md)
 
 ### 联系方式
 
