@@ -13,9 +13,20 @@
 ### 论文汇总
 
 - [RetinaNet](papers/retinanet/retinanet.md)
+- [PANet](papers/PANet/PANet.md)
 - FreeAnchor
 - FSAF
-- [PANet](papers/PANet/PANet.md)
+- FCOS
+- Associate Embbeding
+- CornerNet(Objects as Points)
+- CenterNet(CenterNet: Keypoint Triplets for Object Detection)
+- CenterNet
+- CRAFT
+
+### 源码解读系列
+
+- mmdetection
+
 
 ### 联系方式
 
