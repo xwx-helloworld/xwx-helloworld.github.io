@@ -25,9 +25,12 @@
 
 ### 源码解读系列
 
-- mmdetection
+- [mmdetection](images/mmdet-two-stage-detector-call-stack.png)
 
 
+### 其他系列
+
+- [pytorch basis](x7x8/pytorch_basis/pytorch.md)
 ### 联系方式
 
 如果有问题或者需要讨论的话，欢迎联系我。e-mail: xwx.helloworld@outlook.com
