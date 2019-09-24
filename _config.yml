@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
-title: [看看论文，打打DOTA]
-description: [记录下平常看的论文，万一什么时候有需要呢？]
+title: [记些笔记，不忘初心]
+description: [记录一些日常总结的东西，万一什么时候有需要呢？]
 markdown: kramdown
 kramdown:
     math_engine: katex
