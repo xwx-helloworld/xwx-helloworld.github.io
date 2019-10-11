@@ -16,8 +16,7 @@
 
 ![](res2net.png)
 
-* path1: x--> (conv1*1+norm+relu) + split_and_cat + (conv1*1+norm) 
+* path1: x--> (conv1*1+norm+relu) + split_and_cat + (conv1*1+norm)
+* split_and_cat: split tensor into nums, each splits should be (conv3*3+norm+relu) 
 * path2: x--> x(downsample or not)
 * path1 + path2 --> relu
-
-* split_and_cat: split tensor into nums, each splits should be (conv3*3+norm+relu)
