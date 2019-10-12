@@ -6,11 +6,12 @@
 
 ## 主要贡献（数据，模型，loss）
 * Linear Scaling Rule: When the minibatch size is multiplied by k, multiply the learning rate by k.
+* Constant warmup and Gradual warmup
+* Batch Normalization with Large Minibatches
 * Remark 1: Scaling the cross-entropy loss is not equivalent to scaling the learning rate.
 * Remark 2: Apply momentum correction after changing learning rate if using (10).
 * Remark 3: Normalize the per-worker loss by total minibatch size kn, not per-worker size n.
 * Remark 4: Use a single random shuffling of the training data (per epoch) that is divided amongst all k workers.
-* Constant warmup and Gradual warmup
 * 炫富
 
 
