@@ -12,7 +12,7 @@
 
 
 ## 论文信息
-* 论文名：paper name
+* 论文名：Focal Loss for Dense Object Detection
 * 作者：authors（institution）
 * [github link](https://github.com/yhenon/pytorch-retinanet)
 * [arvix link](https://arxiv.org/pdf/1708.02002.pdf)

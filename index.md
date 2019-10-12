@@ -22,6 +22,7 @@
 - CenterNet(CenterNet: Keypoint Triplets for Object Detection)
 - CenterNet
 - CRAFT
+- [Training ImageNet in 1 Hour](papers/others/train_imagenet_in_1_hour.md)
 
 ### 源码解读系列
 
