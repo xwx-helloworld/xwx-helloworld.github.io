@@ -15,7 +15,7 @@
 - [RetinaNet](papers/retinanet/retinanet.md)
 - [PANet](papers/PANet/PANet.md)
 - FreeAnchor
-- FSAF
+- [FSAF](papers/FSAF/FSAF.md)
 - FCOS
 - Associate Embbeding
 - CornerNet(Objects as Points)
