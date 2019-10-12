@@ -12,6 +12,9 @@
 
 ### 论文汇总
 
+models:
+
+- unitbox
 - [RetinaNet](papers/retinanet/retinanet.md)
 - [PANet](papers/PANet/PANet.md)
 - FreeAnchor
@@ -22,6 +25,10 @@
 - CenterNet(CenterNet: Keypoint Triplets for Object Detection)
 - CenterNet
 - CRAFT
+- M2Det
+
+tips:
+
 - [Training ImageNet in 1 Hour](papers/others/train_imagenet_in_1_hour.md)
 
 ### 源码解读系列
