@@ -30,7 +30,7 @@
 
 
 ### 其他系列
-
+- [basicneck and bottleneck](x7x8/notes/resnet.md)
 - [pytorch intro, also with Module and Function ](x7x8/pytorch_basis/pytorch.md)
 - [pytorch basis](x7x8/pytorch_basis/useful_tips.md)
 ### 联系方式
