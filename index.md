@@ -40,6 +40,7 @@ tips:
 - [basicneck and bottleneck](x7x8/notes/resnet.md)
 - [pytorch intro, also with Module and Function ](x7x8/pytorch_basis/pytorch.md)
 - [pytorch basis](x7x8/pytorch_basis/useful_tips.md)
+- [mmdet-tricks](x7x8/pytorch_basis/tricks.md)
 ### 联系方式
 
 如果有问题或者需要讨论的话，欢迎联系我。e-mail: xwx.helloworld@outlook.com
