@@ -59,26 +59,15 @@ docker rmi -f  `docker images | grep '<none>' | awk '{print $3}'`  删除名�
 ```
 
 ## docker apt update error
+
 GPG error: https://download.docker.com/linux/ubuntu bionic InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 7EA0A9C3F273FCD8
+
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7EA0A9C3F273FCD8
 
 ## docker私有仓库push和pull
-私有仓库pull和push
 
-login：
-docker login <host>
-pull：
-docker pull <host>/<project>/<repo>:<tag>
-一个例子：
-
-docker pull dockerhub.xx.net/database/mysql:latest
-
-push：
-
-重新tag：
-
-docker tag <img_name>:<tag> <host>/<project>/<repo>:<tag>
-
-push：
-
-docker push <host>/<project>/<repo>:<tag>
+- login：docker login <host>
+- pull：docker pull <host>/<project>/<repo>:<tag>
+- 一个例子：docker pull dockerhub.xx.net/database/mysql:latest
+- 重新tag：docker tag <img_name>:<tag> <host>/<project>/<repo>:<tag>
+- push：docker push <host>/<project>/<repo>:<tag>
