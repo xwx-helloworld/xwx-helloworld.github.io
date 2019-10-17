@@ -31,6 +31,11 @@ tips:
 
 - [Training ImageNet in 1 Hour](papers/others/train_imagenet_in_1_hour.md)
 
+
+### 视频分类/检测系列
+
+- [STM](papers/STM/STM.md)
+
 ### 源码解读系列
 
 - [mmdetection](images/mmdet-two-stage-detector-call-stack.png)
@@ -41,6 +46,12 @@ tips:
 - [pytorch intro, also with Module and Function ](x7x8/pytorch_basis/pytorch.md)
 - [pytorch basis](x7x8/pytorch_basis/useful_tips.md)
 - [mmdet-tricks](x7x8/pytorch_basis/tricks.md)
+- [datasets](x7x8/datasets.md)
+
+### 踩坑系列
+
+- [explore jit](x7x8/pytorch_basis/jit_bugs.md)
+
 ### 联系方式
 
 如果有问题或者需要讨论的话，欢迎联系我。e-mail: xwx.helloworld@outlook.com
