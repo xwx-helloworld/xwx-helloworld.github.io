@@ -51,6 +51,7 @@ tips:
 ### 踩坑系列
 
 - [explore jit](x7x8/pytorch_basis/jit_bugs.md)
+- [bugs-daily](x7x8/useful/bugs-daily.md)
 
 ### 联系方式
 
