@@ -52,6 +52,7 @@ tips:
 
 - [explore jit](x7x8/pytorch_basis/jit_bugs.md)
 - [bugs-daily](x7x8/useful/bugs-daily.md)
+- [docker-tips](x7x8/useful/docker.md)
 
 ### 联系方式
 
