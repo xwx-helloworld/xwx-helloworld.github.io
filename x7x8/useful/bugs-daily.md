@@ -3,6 +3,9 @@
 ## 删除所有含有vscode的进程
 - ps -ef | grep 'vscode' | awk '{print $2}' | xargs kill -9
 
+## 下载amazon等带有签名认证的wget命令
+- wget -O test.tar.gz "https://bucket.s3.amazonaws.com/app1/10/10.2/test.tar.gz?Signature=hgbdhjJHGK&Expires=1454446963&AWSAccessKeyId=AAAAAAAAA"
+
 ##代码运行的时候不生成__pycache__
 
 - 在程序执行开始的地方加入下面代码或者设置环境变量 export PYTHONDONTWRITEBYTECODE=1
