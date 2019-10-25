@@ -46,3 +46,14 @@ params_dict = {
 
 ## 借鉴点(可以攻玉)
 - 主干网络可以用EfficientNet试下，直接上B7。
+- 在b7的网络上，尺度放到512x512，10G的显存都out of memory。
+```python
+import torch
+from efficientnet_pytorch import EfficientNet
+
+model = EfficientNet.from_pretrained('efficientnet-b7').cuda()
+img = torch.randn(10, 3, 256, 256).cuda()
+print(img.shape)
+features = model.extract_features(img)
+print(features.shape) 
+```

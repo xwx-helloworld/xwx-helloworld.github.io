@@ -58,6 +58,7 @@ tips:
 - [bash-tips](x7x8/useful/bash-tips.md)
 - [pytorch-tips](x7x8/useful/pytorch-tips.md)
 - [ubuntu-tips](x7x8/useful/ubuntu-tips.md)
+- [python-tips](x7x8/useful/python-tips.md)
 
 ### 联系方式
 
