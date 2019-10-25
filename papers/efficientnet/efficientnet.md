@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$$']]
+            }
+        });
+    </script>
+</head>
+
 ## 论文信息
 * 论文名：EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
 * 作者：Mingxing Tan, Quoc V. Le(1Google Research, Brain Team)
@@ -6,6 +18,7 @@
 
 ## 主要贡献（数据，模型，loss）
 - 提出了新的主干网络，在文中的对比试验中，SOTA（但是用了AutoAugment，不客观，后面单独来说）
+
 ![](performance.png)
 
 ## 文章细节(他山之石)
