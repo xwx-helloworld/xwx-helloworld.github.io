@@ -11,7 +11,7 @@
 </head>
 
 ## 论文信息
-* 论文名：paper name
+* 论文名：AutoAugment: Learning Augmentation Policies from Data
 * 作者：Ekin D. Cubuk, Barret Zoph, Dandelion Mane, Vijay Vasudevan, Quoc V. Le(Google Brain)
 * [github link](https://github.com/DeepVoltaire/AutoAugment.git)
 * [arvix link](https://arxiv.org/pdf/1805.09501.pdf)
