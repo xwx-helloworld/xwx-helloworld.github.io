@@ -23,11 +23,11 @@
 
 ## 文章细节(他山之石)
 ![](model_scale.png)
-- 网络的深度、宽度、尺度都会对结果有影响，因此文章建模如下，其中考虑到FLOPS，限制 $\alpha$ * $\beta$^2 * $\gamma$^2 $\approx$2 ；
+- 网络的深度、宽度、尺度都会对结果有影响，因此文章建模如下，其中考虑到FLOPS，做了一定限制；
 ![](formula.png)
 - 文章采用搜索的方式进行上述参数学习，其中基础网络如下；
 ![](basenet.png)
-- 先固定搜索系数$\phi$，用小的grid search（真的小吗？）搜索出$\alpha $\beta $\gamma，再固定$\alpha $\beta $\gamma搜索出不同的组合系数$\phi 得到EfficientNet-B1/B7；
+- 先固定搜索系数，用小的grid search（真的小吗？）搜索出alpha beta gamma，再固定alpha beta gamma搜索出不同的组合系数-得到EfficientNet-B1/B7；
 ![](steps.png)
 - 最后的参数如下：
 ```python
