@@ -1,8 +1,8 @@
 ## 论文信息
 * 论文名：paper name
-* 作者：authors（institution）
-* github link(if exists)
-* arvix link(if exists)
+* 作者：authors(institution)
+* [github link](if exists)
+* [arvix link](if exists)
 
 ## 主要贡献（数据，模型，loss）
 

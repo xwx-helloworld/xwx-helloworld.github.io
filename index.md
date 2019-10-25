@@ -26,13 +26,14 @@ models:
 - CenterNet
 - CRAFT
 - M2Det
+- [EfficientNet](papers/efficientnet/efficientnet.md)
 
 tips:
 
 - [Training ImageNet in 1 Hour](papers/others/train_imagenet_in_1_hour.md)
 
 
-### 视频分类/检测系列
+### 视频系列
 
 - [STM](papers/STM/STM.md)
 
