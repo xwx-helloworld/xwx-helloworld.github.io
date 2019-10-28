@@ -28,6 +28,7 @@ models:
 - M2Det
 - [EfficientNet](papers/efficientnet/efficientnet.md)
 - [AutoAugment](papers/autoaugment/autoaugment.md)
+- [CrowdPose](papers/crowdpose/crowdpose.md)
 
 tips:
 
@@ -44,6 +45,7 @@ tips:
 
 
 ### 其他系列
+- [ELASTIC](x7x8/notes/elastic.md)
 - [basicneck and bottleneck](x7x8/notes/resnet.md)
 - [pytorch intro, also with Module and Function ](x7x8/pytorch_basis/pytorch.md)
 - [pytorch basis](x7x8/pytorch_basis/useful_tips.md)
