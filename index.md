@@ -29,6 +29,7 @@ models:
 - [EfficientNet](papers/efficientnet/efficientnet.md)
 - [AutoAugment](papers/autoaugment/autoaugment.md)
 - [CrowdPose](papers/crowdpose/crowdpose.md)
+- [CharNet](papers/charnet/charnet.md)
 
 tips:
 
