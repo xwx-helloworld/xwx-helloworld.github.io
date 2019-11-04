@@ -31,6 +31,13 @@ models:
 - [CrowdPose](papers/crowdpose/crowdpose.md)
 - [CRAFT](papers/craft/craft.md)
 - [CharNet](papers/charnet/charnet.md)
+- [TTF-NET](papers/ttf-net/ttf-net.md)
+- [SSA-CNN]
+- [PolarMask]
+- [Numerical Coordinate Regression with Convolutional Neural Networks]
+- [SSD]
+- [DSFD]
+- [RFBNet]
 
 tips:
 
