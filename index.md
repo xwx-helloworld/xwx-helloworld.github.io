@@ -45,7 +45,8 @@ tips:
 
 ### arxiv粗度系列
 - 脊骨关键点，1910更新：[Automatic Cobb Angle Detection using Vertebra Detector and Vertebra Corners Regression](papers/arxiv/vertebra.md)
-- 新网络LapNet(实际上是GlobalNet+RetinaHead)：[](papers/arxiv/lapnet.md)
+- 新网络LapNet(实际上是GlobalNet+RetinaHead)：[LapNet](papers/arxiv/lapnet.md)
+- 自动驾驶场景下摄像头脏污检测：[SoildNet](papers/arxiv/solidnet.md)
 
 ### 视频系列
 
