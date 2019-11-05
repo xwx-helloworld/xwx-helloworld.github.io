@@ -9,3 +9,4 @@
 - 提出了新的网络LapNet（CPN中gloabalNet最后一层concat，叠加RetinaNet的Head）；
 - 独特的anchor生成机制（借鉴yolo系列的kmeans方法）；
 - 速度快（512*512大概需要55ms）；
+- anchor通过PONO（Per-Object Normalized Overlap）方式选取，与传统AO（Absolute Overlap）方法不同；
