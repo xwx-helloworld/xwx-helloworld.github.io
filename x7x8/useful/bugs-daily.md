@@ -20,6 +20,12 @@
 sudo fuser -v /dev/nvidia*
 ```
 
+## 查看opencv相关信息
+
+```
+print(cv2.getBuildInformation())
+```
+
 ## 关于Profile（cProfile）
 
 - python -m cProfile -o result.out -s cumulative step.py  //性能分析, 分析结果保存到 result.out 文件；
