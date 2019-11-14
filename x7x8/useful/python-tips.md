@@ -62,3 +62,14 @@ names = ['zarten_1', 'zarten_2']
 names_size = sys.getsizeof(names) #字节数
 print('size:', names_size)
 ```
+
+# 压平嵌套list方法
+```
+from itertools import chain
+print (list(chain(*li)))
+
+# or
+
+flat=lambda L: sum(map(flat,L),[]) if isinstance(L,list) else [L]
+print(flat(li))
+```
