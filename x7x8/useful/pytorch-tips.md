@@ -1,3 +1,13 @@
+
+## torch.distributed
+
+- reference: [image](distributed.png) or [bilibili](https://t.bilibili.com/317274366646993515?tab=2) or [medium](https://medium.com/intel-student-ambassadors/distributed-training-of-deep-learning-models-with-pytorch-1123fa538848)
+- 分布式系统五大要素：非常快的带宽、所有机器同的用户名（linux）、免密登陆、MPI实现、可访问的文件系统；
+- SGD与同步SGD
+- 通信方式：peer-to-peer, all-reduce
+- 为了更好利用分布式系统效率：增加batch，增加节点，降低数据同步时间（提高带宽）
+- 分布式系统中，有效的Batch=R*B（R=ranks， B=mini-batch），，此时lr需要调小相应倍数。
+
 ## pytorch相关操作
 * [cheatsheet](https://pytorch.org/tutorials/beginner/ptcheat.html)
 * [tensor相关](https://pytorch.org/docs/stable/tensors.html)
