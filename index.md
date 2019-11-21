@@ -27,6 +27,7 @@ models:
 - CRAFT
 - M2Det
 - [EfficientNet](papers/efficientnet/efficientnet.md)
+- [EfficientDet](papers/efficientdet/efficientdet.md)
 - [AutoAugment](papers/autoaugment/autoaugment.md)
 - [CrowdPose](papers/crowdpose/crowdpose.md)
 - [CRAFT](papers/craft/craft.md)
