@@ -48,3 +48,5 @@ ansible-playbook -i inventory/mycluster/hosts.ini cluster.yml -b -v -k
 * 查看admin的token：kubectl -n kube-system describe $(kubectl -n kube-system get secret -n kube-system -o name | grep namespace) | grep token
 
 * 访问dashboard查看服务情况：https://10.182.13.213:6443/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/overview?namespace=cv-service
+
+* 查看C++的版本： g++ -x c++  -E -dM -< /dev/null | grep __cplusplus
